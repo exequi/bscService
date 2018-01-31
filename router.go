@@ -3,6 +3,7 @@ package main
 import (
 	"net/http"
 
+	. "bscgo/lib"
 	"github.com/gorilla/mux"
 )
 

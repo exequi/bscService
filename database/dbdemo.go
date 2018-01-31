@@ -1,4 +1,4 @@
-package main
+package database
 
 import (
 	"database/sql"
@@ -6,7 +6,7 @@ import (
 	_ "github.com/mattn/go-sqlite3"
 )
 
-func dbmain() {
+func dbdemo() {
 	db, err := sql.Open("sqlite3", "./bs.db")
 	checkErr(err)
 

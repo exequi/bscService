@@ -1,6 +1,9 @@
-package main
+package handler
 
-import "fmt"
+import (
+	. "bscgo/model"
+	"fmt"
+)
 
 var currentId int
 

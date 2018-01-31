@@ -1,6 +1,9 @@
 package main
 
-import "net/http"
+import (
+	. "bscgo/handler"
+	"net/http"
+)
 
 type Route struct {
 	Name        string
